@@ -1,7 +1,6 @@
 .navbar-container {
   display: grid;
   gap: 1rem;
-  background-color: #13ab67;
 }
 .navbar-image-parent {
   display: grid;
@@ -16,7 +15,7 @@
 }
 .navbar-parent a {
   cursor: pointer;
-  color: white;
+  color: black;
   font-weight: 500;
   text-decoration: none;
 }
