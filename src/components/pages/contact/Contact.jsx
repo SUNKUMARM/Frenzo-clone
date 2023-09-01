@@ -1,10 +1,10 @@
 import React from "react";
 import "./contact.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div name="contact" className="contact-container">
       <div>
         <p className="contact-title">
           Need help with a project? <p>Let's talk!</p>
@@ -21,11 +21,18 @@ const Contact = () => {
       </div>
       <div className="footer">
         <div className="contact-footer">
-          <NavLink to={"/"}>Home</NavLink>
-          <NavLink to={"/service"}>Services</NavLink>
-          <NavLink>About</NavLink>
-          <NavLink>Work</NavLink>
-          <NavLink>Contact</NavLink>
+          <Link to="service" smooth={true} duration={500}>
+            Services
+          </Link>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </div>
         <div className="copyright">
           <p>© 2022 Frenzo. All Rights Reserved.</p>

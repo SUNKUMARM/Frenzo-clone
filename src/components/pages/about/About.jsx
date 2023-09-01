@@ -4,7 +4,7 @@ import coffee from "../../assets/coffee.webp";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div name="about" className="about-container">
       <div>
         <p className="about-title">
           About us <b>Who we are</b>

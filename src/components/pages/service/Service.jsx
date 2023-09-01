@@ -7,7 +7,7 @@ import app from "../../assets/ui.webp";
 
 const Service = () => {
   return (
-    <div className="service-container">
+    <div name="service" className="service-container">
       <div>
         <p className="service-title">
           Services <b>What we do</b>

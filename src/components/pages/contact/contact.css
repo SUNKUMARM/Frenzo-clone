@@ -16,7 +16,7 @@
 .contact-content {
   line-height: 2rem;
   font-size: 1.1rem;
-  margin: 3rem 1.5rem;
+  margin: 3rem 1.5rem 3rem 1.5rem;
 }
 .contact-content a {
   text-decoration: none;
@@ -25,9 +25,9 @@
 }
 .contact-footer {
   margin: 3rem 1.5rem 3rem 1.5rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 .contact-footer a {
   text-decoration: none;
@@ -37,8 +37,9 @@
 }
 .copyright {
   font-size: 1.1rem;
-  display: grid;
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
   margin: 4rem 1.5rem 2rem 1.5rem;
 }
 
@@ -51,5 +52,15 @@
     width: 480px;
     font-size: 1.3rem;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+  .copyright {
+    margin: 0;
+    align-self: center;
   }
 }

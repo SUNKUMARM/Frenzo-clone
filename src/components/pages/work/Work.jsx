@@ -6,7 +6,7 @@ import img3 from "../../assets/klugparking.webp";
 
 const Work = () => {
   return (
-    <div className="work-container">
+    <div name="work" className="work-container">
       <div>
         <p className="work-title">
           Work <b>What we have done</b>
