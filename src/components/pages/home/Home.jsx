@@ -3,6 +3,7 @@ import "./home.css";
 import banner from "../../assets/illustration.svg";
 import NavBar from "../../navbar/NavBar";
 import Service from "../service/Service";
+import About from "../about/About";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <img className="home-banner" src={banner} alt="banner" />
       </div>
       <Service />
+      <About />
     </div>
   );
 };

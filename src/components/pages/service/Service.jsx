@@ -67,21 +67,6 @@ const Service = () => {
         </div>
       </div>
     </div>
-
-    // <div className="service-container-parent">
-
-    /* <div className="service">
-       
-        </div>
-        <div className="service">
-         
-        </div>
-        <div className="service">
-         
-        </div> */
-    /* </div> */
-    //{" "}
-    // </div>
   );
 };
 
