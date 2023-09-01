@@ -4,6 +4,7 @@ import banner from "../../assets/illustration.svg";
 import NavBar from "../../navbar/NavBar";
 import Service from "../service/Service";
 import About from "../about/About";
+import Work from "../work/Work";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       </div>
       <Service />
       <About />
+      <Work />
     </div>
   );
 };
